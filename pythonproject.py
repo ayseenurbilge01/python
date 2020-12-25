@@ -12,6 +12,7 @@ for i in range(3):
             print("lütfen daha sonra tekrar deneyin")
             break
     elif ad==isim and soyad==soyisim:
+        print(f"Hoşgeldin {isim}")
         derssayisi = int(input("Ders sayınızı giriniz(min3, max5)"))
         if derssayisi < 3:
             print("Sınıf değerini yanlış girdin :(")
